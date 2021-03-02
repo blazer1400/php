@@ -13,9 +13,9 @@ for($x = 35; $x >= 25; $x--) {
 
 for($i = 0; $i < 9; $i++) {
     if ($i % 2 == 0) {
-        echo "<img style='border: solid 3px red' src='img/monke" . ($i + 1) . "'>";
+        echo "<img style='border: solid 3px red' src='img/monke" . ($i + 1) . ".png'>";
     } else {
-        echo "<img style='border: solid 3px blue' src='img/monke" . ($i + 1) . "'>";
+        echo "<img style='border: solid 3px blue' src='img/monke" . ($i + 1) . ".png'>";
     }
 }
 
