@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    font-family:arial;
+}
+header {
+    background: url('img/baguette.jpg');
+    color:white;
+    width:100%;
+    padding:15px 0px;
+}
+header a {
+    margin-left:10px;
+    transition-duration:0.2s;
+    padding:5px;
+    border-radius:4px;
+    text-decoration: none;
+    color:white;
+}
+header a:hover {
+    background-color: #eaeaea;
+    color:black;
+}
+header h1 {
+    margin-left:15px;
+}
